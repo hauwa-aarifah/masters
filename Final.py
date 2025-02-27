@@ -11,7 +11,7 @@ class EnhancedHospitalSimulation:
     """Main simulation class for generating synthetic hospital data"""
     
     def __init__(self, start_date="2025-01-01", end_date="2025-03-31"):
-        self.date_range = pd.date_range(start=start_date, end=end_date, freq="h")  # Changed from "H" to "h"
+        self.date_range = pd.date_range(start=start_date, end=end_date, freq="h")  
         self.hospital_configs = {
             "Royal London": {
                 "size": "large",
